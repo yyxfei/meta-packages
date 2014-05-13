@@ -1351,4 +1351,3 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-0
 - First version for wn65pkg
-
