@@ -1,6 +1,6 @@
 Name:		wn55pkg
 Version:	1.0.0
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	WN55 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1236,7 +1236,6 @@ Requires:       xulrunner-devel
 Requires:       xulrunner
 Requires:       xz-libs
 Requires:       xz
-Requires:       ybjgfs-config
 Requires:       yelp
 Requires:       ypbind
 Requires:       ypserv
@@ -1247,8 +1246,6 @@ Requires:       yum-downloadonly
 Requires:       yum-metadata-parser
 Requires:       yum
 Requires:       yum-utils
-Requires:       zefs-core
-Requires:       zefs-fuse
 Requires:       zip
 Requires:       zisofs-tools
 Requires:       zlib-devel
@@ -1275,6 +1272,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
-* Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-0
+* Thu May 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
+- Delete zefs pkg
+* Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-1
 - First version for wn65pkg
 
