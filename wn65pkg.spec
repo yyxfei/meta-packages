@@ -1306,7 +1306,6 @@ Requires:       xz
 Requires:       xz-devel
 Requires:       xz-libs
 Requires:       xz-lzma-compat
-Requires:       ybjgfs-config
 Requires:       ypbind
 Requires:       yp-tools
 Requires:       yum
@@ -1323,8 +1322,6 @@ Requires:       yum-plugin-versionlock
 Requires:       yum-presto
 Requires:       yum-utils
 Requires:       zd1211-firmware
-Requires:       zefs-core
-Requires:       zefs-fuse
 Requires:       zip
 Requires:       zlib
 Requires:       zlib-devel
