@@ -1284,7 +1284,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
-* Thu Mar 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
+* Thu May 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
 - delete zefs
 * Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-1
 - First version for wn58pkg
