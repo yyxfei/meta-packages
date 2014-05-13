@@ -1,6 +1,6 @@
 Name:		wn58pkg
 Version:	1.0.0
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	WN55 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -42,7 +42,6 @@ Requires:       audiofile-devel
 Requires:       audiofile
 Requires:       audit-libs
 Requires:       audit-libs-python
-Requires:       audit-libs
 Requires:       audit
 Requires:       aufs
 Requires:       augeas
@@ -173,7 +172,6 @@ Requires:       dev86
 Requires:       device-mapper-event
 Requires:       device-mapper
 Requires:       device-mapper-multipath
-Requires:       device-mapper
 Requires:       dhclient
 Requires:       dhcpv6-client
 Requires:       dhcpv6
@@ -327,7 +325,6 @@ Requires:       gnuplot-emacs
 Requires:       gnuplot
 Requires:       gnutls
 Requires:       gnutls-utils
-Requires:       gnutls
 Requires:       gphoto2
 Requires:       gpm-devel
 Requires:       gpm
@@ -567,7 +564,6 @@ Requires:       libselinux-devel
 Requires:       libselinux
 Requires:       libselinux-python
 Requires:       libselinux-utils
-Requires:       libselinux
 Requires:       libsemanage
 Requires:       libsepol-devel
 Requires:       libsepol
@@ -576,7 +572,6 @@ Requires:       libsmbclient
 Requires:       libSM-devel
 Requires:       libSM
 Requires:       libsmi
-Requires:       libSM
 Requires:       libsoup
 Requires:       libstdc++44-devel
 Requires:       libstdc++-devel
@@ -633,19 +628,16 @@ Requires:       libXi-devel
 Requires:       libXi
 Requires:       libXinerama-devel
 Requires:       libXinerama
-Requires:       libXi
 Requires:       libxkbfile
 Requires:       libxml2-devel
 Requires:       libxml2
 Requires:       libxml2-python
-Requires:       libxml2
 Requires:       libXmu-devel
 Requires:       libXmu
 Requires:       libXp-devel
 Requires:       libXp
 Requires:       libXpm-devel
 Requires:       libXpm
-Requires:       libXp
 Requires:       libXrandr-devel
 Requires:       libXrandr
 Requires:       libXrender-devel
@@ -662,7 +654,6 @@ Requires:       libXTrap-devel
 Requires:       libXTrap
 Requires:       libXtst-devel
 Requires:       libXtst
-Requires:       libXt
 Requires:       libXv-devel
 Requires:       libXvMC-devel
 Requires:       libXvMC
@@ -710,7 +701,6 @@ Requires:       mesa-libGLU-devel
 Requires:       mesa-libGLU
 Requires:       mesa-libGLw-devel
 Requires:       mesa-libGLw
-Requires:       mesa-libGL
 Requires:       metacity
 Requires:       mgetty
 Requires:       microcode_ctl
@@ -803,7 +793,6 @@ Requires:       openldap-devel
 Requires:       openldap
 Requires:       openldap-servers-overlays
 Requires:       openldap-servers
-Requires:       openldap
 Requires:       openmotif22
 Requires:       openmotif-devel
 Requires:       openmotif
@@ -831,7 +820,6 @@ Requires:       pam_krb5
 Requires:       pam_passwdqc
 Requires:       pam_pkcs11
 Requires:       pam_smb
-Requires:       pam
 Requires:       pango-devel
 Requires:       pango
 Requires:       paps
@@ -1100,7 +1088,6 @@ Requires:       time
 Requires:       tix
 Requires:       tk
 Requires:       tkinter
-Requires:       tk
 Requires:       tmpwatch
 Requires:       tn5250
 Requires:       tog-pegasus-devel
@@ -1261,7 +1248,6 @@ Requires:       xulrunner-devel
 Requires:       xulrunner
 Requires:       xz-libs
 Requires:       xz
-Requires:       ybjgfs-config
 Requires:       yelp
 Requires:       ypbind
 Requires:       ypserv
@@ -1272,8 +1258,6 @@ Requires:       yum-downloadonly
 Requires:       yum-metadata-parser
 Requires:       yum
 Requires:       yum-utils
-Requires:       zefs-core
-Requires:       zefs-fuse
 Requires:       zip
 Requires:       zisofs-tools
 Requires:       zlib-devel
@@ -1300,6 +1284,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
-* Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-0
+* Thu Mar 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
+- delete zefs
+* Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-1
 - First version for wn65pkg
-
