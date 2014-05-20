@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.0
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1347,6 +1347,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
+* Thu May 20 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
+- Delete myproxy
 * Thu May 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
 - Delete zefs
 * Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-1
