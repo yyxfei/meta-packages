@@ -786,8 +786,6 @@ Requires:       mtools
 Requires:       mtr
 Requires:       mutt
 Requires:       mx4j
-Requires:       myproxy
-Requires:       myproxy-libs
 Requires:       mysql
 Requires:       mysql-connector-java
 Requires:       mysql-connector-odbc
