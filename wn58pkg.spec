@@ -1,7 +1,7 @@
 Name:		wn58pkg
 Version:	1.0.0
-Release:	2%{?dist}
-Summary:	WN55 meta-packages
+Release:	3%{?dist}
+Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
@@ -80,6 +80,7 @@ Requires:       bluez-utils
 Requires:       boost141-python
 Requires:       boost-devel
 Requires:       boost
+Requires:       boost141-filesystem
 Requires:       bouncycastle
 Requires:       bridge-utils
 Requires:       brlapi
