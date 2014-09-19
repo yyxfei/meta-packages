@@ -299,7 +299,8 @@ Requires:       glibmm24
 Requires:       glx-utils
 Requires:       gmp-devel
 Requires:       gmp
-Requires:       gnome-desktop
+Requires:       gnome-desktop.x86_64
+Requires:       gnome-desktop.i386
 Requires:       gnome-doc-utils
 Requires:       gnome-keyring-devel
 Requires:       gnome-keyring
