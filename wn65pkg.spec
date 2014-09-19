@@ -311,7 +311,8 @@ Requires:       glibc-headers
 Requires:       glibmm24
 Requires:       gmp
 Requires:       gmp-devel
-Requires:       gnome-desktop
+Requires:       gnome-desktop.x86_64
+Requires:       gnome-desktop.i686
 Requires:       gnome-desktop-devel
 Requires:       gnome-disk-utility-libs
 Requires:       gnome-doc-utils
