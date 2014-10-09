@@ -996,6 +996,7 @@ Requires:       perl-XML-Simple
 Requires:       perl-XML-Twig
 Requires:       perl-YAML-Syck
 Requires:       phonon-backend-gstreamer
+Requires:       php
 Requires:       pilot-link
 Requires:       pinentry
 Requires:       pinfo
