@@ -1,6 +1,6 @@
 Name:		wn58pkg
 Version:	1.0.0
-Release:	4%{?dist}
+Release:	5%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -892,6 +892,7 @@ Requires:       perl-XML-Simple
 Requires:       perl-XML-Stream
 Requires:       perl-XML-Twig
 Requires:       pexpect
+Requires:       php
 Requires:       php-common
 Requires:       php-mysql
 Requires:       php-pdo
