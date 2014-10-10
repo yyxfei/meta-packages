@@ -1,6 +1,6 @@
 Name:		wn58pkg
 Version:	1.0.0
-Release:	5%{?dist}
+Release:	6%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -167,8 +167,6 @@ Requires:       dcraw
 Requires:       dejagnu
 Requires:       dejavu-lgc-fonts
 Requires:       Deployment_Guide-en-US
-Requires:       desktop-backgrounds-basic
-Requires:       desktop-file-utils
 Requires:       dev86
 Requires:       device-mapper-event
 Requires:       device-mapper
@@ -303,23 +301,6 @@ Requires:       glibmm24
 Requires:       glx-utils
 Requires:       gmp-devel
 Requires:       gmp
-Requires:       gnome-desktop.x86_64
-Requires:       gnome-desktop.i386
-Requires:       gnome-doc-utils
-Requires:       gnome-keyring-devel
-Requires:       gnome-keyring
-Requires:       gnome-menus
-Requires:       gnome-mime-data
-Requires:       gnome-mount
-Requires:       gnome-nettool
-Requires:       gnome-panel
-Requires:       gnome-python2-bonobo
-Requires:       gnome-python2-canvas
-Requires:       gnome-python2-gconf
-Requires:       gnome-python2-gnomevfs
-Requires:       gnome-python2
-Requires:       gnome-vfs2-devel
-Requires:       gnome-vfs2
 Requires:       gnu-crypto-sasl-jdk1.4
 Requires:       gnupg2
 Requires:       gnupg
@@ -959,7 +940,6 @@ Requires:       quota
 Requires:       radvd
 Requires:       rcs
 Requires:       rdate
-Requires:       rdesktop
 Requires:       rdist
 Requires:       rds-tools
 Requires:       readahead
