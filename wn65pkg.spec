@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.0
-Release:	5%{?dist}
+Release:	6%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -180,7 +180,6 @@ Requires:       dbus-x11
 Requires:       dcraw
 Requires:       dejagnu
 Requires:       deltarpm
-Requires:       desktop-file-utils
 Requires:       device-mapper
 Requires:       device-mapper-event
 Requires:       device-mapper-event-libs
@@ -311,21 +310,6 @@ Requires:       glibc-headers
 Requires:       glibmm24
 Requires:       gmp
 Requires:       gmp-devel
-Requires:       gnome-desktop.x86_64
-Requires:       gnome-desktop.i686
-Requires:       gnome-desktop-devel
-Requires:       gnome-disk-utility-libs
-Requires:       gnome-doc-utils
-Requires:       gnome-doc-utils-stylesheets
-Requires:       gnome-icon-theme
-Requires:       gnome-keyring
-Requires:       gnome-keyring-devel
-Requires:       gnome-python2
-Requires:       gnome-python2-gnome
-Requires:       gnome-python2-gnomevfs
-Requires:       gnome-themes
-Requires:       gnome-vfs2
-Requires:       gnome-vfs2-devel
 Requires:       gnupg2
 Requires:       gnuplot
 Requires:       gnuplot-common
@@ -1168,7 +1152,6 @@ Requires:       smartmontools
 Requires:       smp_utils
 Requires:       soprano
 Requires:       sos
-Requires:       sound-theme-freedesktop
 Requires:       sox
 Requires:       sqlite
 Requires:       sqlite-devel
