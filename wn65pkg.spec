@@ -734,6 +734,7 @@ Requires:       lockdev
 Requires:       log4j
 Requires:       logrotate
 Requires:       logwatch
+Requires:       lrzsz
 Requires:       lsof
 Requires:       lua
 Requires:       lvm2
