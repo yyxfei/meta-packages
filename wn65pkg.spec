@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.0
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
