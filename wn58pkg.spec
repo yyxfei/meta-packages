@@ -1,12 +1,11 @@
 Name:		wn58pkg
 Version:	1.0.0
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 Requires:       915resolution
-Requires:       a1_grid_env
 Requires:       a2ps
 Requires:       acl
 Requires:       acpid
@@ -105,7 +104,6 @@ Requires:       checkpolicy
 Requires:       chkconfig
 Requires:       chkfontpath
 Requires:       classads
-Requires:       cleanup-grid-accounts
 Requires:       cmake
 Requires:       compat-dapl-devel
 Requires:       compat-dapl-static
@@ -312,8 +310,6 @@ Requires:       gphoto2
 Requires:       gpm-devel
 Requires:       gpm
 Requires:       grep
-Requires:       gridftp-ifce
-Requires:       gridsite-libs
 Requires:       groff
 Requires:       grub
 Requires:       gsi-openssh-clients
