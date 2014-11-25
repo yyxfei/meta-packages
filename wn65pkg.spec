@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.0
-Release:	7%{?dist}
+Release:	8%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -342,6 +342,7 @@ Requires:       gtkmm24
 Requires:       gtkspell
 Requires:       gutenprint
 Requires:       gutenprint-plugin
+Requires:       gv
 Requires:       gvfs
 Requires:       gvfs-devel
 Requires:       gzip
