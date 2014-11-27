@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.0
-Release:	8%{?dist}
+Release:	9%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -230,6 +230,7 @@ Requires:       emacs-gnuplot
 Requires:       emacs-nox
 Requires:       enchant
 Requires:       ethtool
+Requires:       evince
 Requires:       evolution-data-server
 Requires:       evolution-data-server-devel
 Requires:       evolution-data-server-doc
@@ -1129,6 +1130,7 @@ Requires:       sane-backends-libs
 Requires:       sane-backends-libs-gphoto2
 Requires:       sane-frontends
 Requires:       scl-utils
+Requires:       screen
 Requires:       SDL
 Requires:       SDL-devel
 Requires:       sed
@@ -1284,6 +1286,7 @@ Requires:       xorg-x11-server-utils
 Requires:       xorg-x11-utils
 Requires:       xorg-x11-xauth
 Requires:       xorg-x11-xinit
+Requires:       xpdf
 Requires:       xsane
 Requires:       xsane-common
 Requires:       xsane-gimp
