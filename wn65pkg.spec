@@ -1,5 +1,5 @@
 Name:		wn65pkg
-Version:	1.0.0
+Version:	1.0.1
 Release:	9%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
