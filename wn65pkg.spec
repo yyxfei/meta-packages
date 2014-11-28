@@ -1265,6 +1265,8 @@ Requires:       Xaw3d
 Requires:       xcb-util
 Requires:       xdg-user-dirs
 Requires:       xdg-utils
+Requires:       xdvik
+Requires:       xdvipdfmx
 Requires:       xerces-c
 Requires:       xerces-j2
 Requires:       xfig
