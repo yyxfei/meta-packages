@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	9%{?dist}
+Release:	10%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -26,6 +26,7 @@ Requires:       amanda
 Requires:       amanda-client
 Requires:       ant
 Requires:       antlr
+Requires:       apache-flume
 Requires:       apache-tomcat-apis
 Requires:       apr
 Requires:       apr-devel
