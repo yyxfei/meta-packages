@@ -1,6 +1,6 @@
 Name:		wn58pkg
 Version:	1.0.0
-Release:	7%{?dist}
+Release:	8%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -24,6 +24,7 @@ Requires:       amtu
 Requires:       am-utils
 Requires:       anacron
 Requires:       antlr
+Requires:       apache-flume
 Requires:       apr-util
 Requires:       apr
 Requires:       arptables_jf
