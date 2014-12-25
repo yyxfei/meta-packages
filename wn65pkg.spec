@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	10%{?dist}
+Release:	11%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -99,6 +99,7 @@ Requires:       ca-certificates
 Requires:       cairo
 Requires:       cairo-devel
 Requires:       cairomm
+Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
 Requires:       certmonger
