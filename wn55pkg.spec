@@ -1,6 +1,6 @@
 Name:		wn55pkg
 Version:	1.0.0
-Release:	8%{?dist}
+Release:	9%{?dist}
 Summary:	WN55 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -377,7 +377,6 @@ Requires:       jakarta-commons-logging
 Requires:       java-1.4.2-gcj-compat
 Requires:       java-1.6.0-openjdk-devel
 Requires:       java-1.6.0-openjdk
-Requires:       java-1.6.0-sun-compat
 Requires:       jclassads
 Requires:       jdk
 Requires:       jpackage-utils
