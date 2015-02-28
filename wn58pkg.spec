@@ -1,6 +1,6 @@
 Name:		wn58pkg
-Version:	1.0.0
-Release:	9%{?dist}
+Version:	1.0.1
+Release:	1%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1054,7 +1054,6 @@ Requires:       traceroute
 Requires:       transfig
 Requires:       tree
 Requires:       trousers
-Requires:       tsclient
 Requires:       ttmkfdir
 Requires:       tvflash
 Requires:       tzdata-java
