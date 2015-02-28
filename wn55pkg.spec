@@ -1065,7 +1065,6 @@ Requires:       traceroute
 Requires:       transfig
 Requires:       tree
 Requires:       trousers
-Requires:       tsclient
 Requires:       ttmkfdir
 Requires:       tvflash
 Requires:       tzdata-java
