@@ -1,6 +1,6 @@
 Name:		wn55pkg
-Version:	1.0.0
-Release:	9%{?dist}
+Version:	1.0.1
+Release:	1%{?dist}
 Summary:	WN55 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
