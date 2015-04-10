@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	11%{?dist}
+Release:	12%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -243,6 +243,7 @@ Requires:       expect
 Requires:       fakeroot
 Requires:       fakeroot-libs
 Requires:       fetchmail
+Requires:       finger
 Requires:       file
 Requires:       file-devel
 Requires:       file-libs
