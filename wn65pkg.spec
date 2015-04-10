@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	12%{?dist}
+Release:	13%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1192,6 +1192,7 @@ Requires:       systemtap-runtime
 Requires:       systemtap-sdt-devel
 Requires:       systemtap-server
 Requires:       sysvinit-tools
+Requires:       tkinter
 Requires:       t1lib
 Requires:       tar
 Requires:       tbb
