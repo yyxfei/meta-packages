@@ -1271,6 +1271,7 @@ Requires:       xdg-user-dirs
 Requires:       xdg-utils
 Requires:       xdvik
 Requires:       xdvipdfmx
+Requires:       xemacs
 Requires:       xerces-c
 Requires:       xerces-j2
 Requires:       xfig
