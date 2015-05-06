@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	14%{?dist}
+Release:	15%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1284,6 +1284,7 @@ Requires:       xml-commons-resolver
 Requires:       xmlrpc-c
 Requires:       xmlrpc-c-client
 Requires:       xorg-x11-apps
+Requires:       xorg-x11-xbitmaps
 Requires:       xorg-x11-drv-ati-firmware
 Requires:       xorg-x11-fonts-misc
 Requires:       xorg-x11-fonts-Type1
