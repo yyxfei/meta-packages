@@ -57,6 +57,7 @@ Requires:       b43-openfwwf
 Requires:       babel
 Requires:       babl
 Requires:       basesystem
+Requires:       base-devel
 Requires:       bash
 Requires:       bc
 Requires:       bcel
@@ -102,6 +103,17 @@ Requires:       cairomm
 Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
+Requires:       cernlib
+Requires:       cernlib-static.x86_64
+Requires:       cernlib-g77
+Requires:       cernlib-g77-devel
+Requires:       cernlib-g77-static
+Requires:       cernlib-g77-utils
+Requires:       cernlib-utils
+Requires:       cernlib-packlib
+Requires:       cernlib-packlib-g77
+Requires:       cernlib-packlib-gfortran
+Requires:       cernlib-devel
 Requires:       certmonger
 Requires:       CGSI-gSOAP
 Requires:       check
@@ -243,6 +255,8 @@ Requires:       expect
 Requires:       fakeroot
 Requires:       fakeroot-libs
 Requires:       fetchmail
+Requires:       fftw
+Requires:       fftw-devel
 Requires:       finger
 Requires:       file
 Requires:       file-devel
@@ -305,6 +319,8 @@ Requires:       gimp-help
 Requires:       gimp-help-browser
 Requires:       gimp-libs
 Requires:       git
+Requires:       git-svn
+Requires:       gitk
 Requires:       glib2
 Requires:       glib2-devel
 Requires:       glibc
@@ -477,6 +493,7 @@ Requires:       ksc
 Requires:       ksysguardd
 Requires:       lapack
 Requires:       ldapjdk
+Requires:       lapack-devel
 Requires:       ledmon
 Requires:       less
 Requires:       lftp
@@ -736,6 +753,7 @@ Requires:       lm_sensors
 Requires:       lm_sensors-devel
 Requires:       lm_sensors-libs
 Requires:       lockdev
+Requires:       log4cpp-devel
 Requires:       log4j
 Requires:       logrotate
 Requires:       logwatch
@@ -1249,6 +1267,7 @@ Requires:       usermode
 Requires:       ustr
 Requires:       util-linux-ng
 Requires:       uuidd
+Requires:       valgrind
 Requires:       vconfig
 Requires:       vim-common
 Requires:       vim-enhanced
@@ -1294,6 +1313,7 @@ Requires:       xorg-x11-server-utils
 Requires:       xorg-x11-utils
 Requires:       xorg-x11-xauth
 Requires:       xorg-x11-xinit
+Requires:       xrootd-devel
 Requires:       xpdf
 Requires:       xsane
 Requires:       xsane-common
