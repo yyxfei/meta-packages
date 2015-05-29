@@ -57,7 +57,6 @@ Requires:       b43-openfwwf
 Requires:       babel
 Requires:       babl
 Requires:       basesystem
-Requires:       base-devel
 Requires:       bash
 Requires:       bc
 Requires:       bcel
@@ -103,8 +102,7 @@ Requires:       cairomm
 Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
-Requires:       cernlib
-Requires:       cernlib-static.x86_64
+Requires:       cernlib-static
 Requires:       cernlib-g77
 Requires:       cernlib-g77-devel
 Requires:       cernlib-g77-static
@@ -113,7 +111,6 @@ Requires:       cernlib-utils
 Requires:       cernlib-packlib
 Requires:       cernlib-packlib-g77
 Requires:       cernlib-packlib-gfortran
-Requires:       cernlib-devel
 Requires:       certmonger
 Requires:       CGSI-gSOAP
 Requires:       check
@@ -347,6 +344,7 @@ Requires:       grubby
 Requires:       gsi-openssh
 Requires:       gsi-openssh-clients
 Requires:       gsl
+Requires:       gsl-devel
 Requires:       gsm
 Requires:       gsoap
 Requires:       gstreamer
@@ -491,9 +489,7 @@ Requires:       krb5-pkinit-openssl
 Requires:       krb5-workstation
 Requires:       ksc
 Requires:       ksysguardd
-Requires:       lapack
 Requires:       ldapjdk
-Requires:       lapack-devel
 Requires:       ledmon
 Requires:       less
 Requires:       lftp
