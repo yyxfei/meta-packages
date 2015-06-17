@@ -211,10 +211,6 @@ Requires:       docbook-utils
 Requires:       dos2unix
 Requires:       dosfstools
 Requires:       doxygen
-Requires:       dracut
-Requires:       dracut-fips
-Requires:       dracut-kernel
-Requires:       dracut-network
 Requires:       dumpet
 Requires:       dvipng
 Requires:       e2fsprogs
