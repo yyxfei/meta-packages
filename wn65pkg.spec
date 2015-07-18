@@ -7,7 +7,6 @@ License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 Requires:       389-ds-base-devel
 Requires:       389-ds-base-libs
-Requires:       a1_grid_env
 Requires:       abrt
 Requires:       abrt-addon-ccpp
 Requires:       abrt-addon-kerneloops
@@ -26,7 +25,6 @@ Requires:       amanda
 Requires:       amanda-client
 Requires:       ant
 Requires:       antlr
-Requires:       apache-flume
 Requires:       apache-tomcat-apis
 Requires:       apr
 Requires:       apr-devel
@@ -99,7 +97,6 @@ Requires:       ca-certificates
 Requires:       cairo
 Requires:       cairo-devel
 Requires:       cairomm
-Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
 Requires:       cernlib-static
@@ -121,7 +118,6 @@ Requires:       chrpath
 Requires:       classads
 Requires:       classpathx-jaf
 Requires:       classpathx-mail
-Requires:       cleanup-grid-accounts
 Requires:       cloog-ppl
 Requires:       clucene-core
 Requires:       cmake
@@ -332,8 +328,6 @@ Requires:       gpgme
 Requires:       gpm
 Requires:       gpm-libs
 Requires:       grep
-Requires:       gridftp-ifce
-Requires:       gridsite-libs
 Requires:       groff
 Requires:       grub
 Requires:       grubby
@@ -365,8 +359,8 @@ Requires:       hal-devel
 Requires:       hal-info
 Requires:       hal-libs
 Requires:       hal-storage-addon
-Requires:       hdparm
 Requires:       HEP_OSlibs_SL6
+Requires:       hdparm
 Requires:       hesinfo
 Requires:       hesiod
 Requires:       hicolor-icon-theme
