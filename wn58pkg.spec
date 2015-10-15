@@ -1,6 +1,6 @@
 Name:		wn58pkg
 Version:	1.0.1
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
