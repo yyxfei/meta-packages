@@ -432,6 +432,7 @@ Requires:       java_cup
 Requires:       jclassads
 Requires:       jdk
 Requires:       jline
+Requires:       joe
 Requires:       jpackage-utils
 Requires:       jss
 Requires:       junit
