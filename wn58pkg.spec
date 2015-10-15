@@ -377,6 +377,7 @@ Requires:       java-1.6.0-openjdk-devel
 Requires:       java-1.6.0-openjdk
 Requires:       jclassads
 Requires:       jdk
+Requires:       joe
 Requires:       jpackage-utils
 Requires:       jwhois
 Requires:       kbd
