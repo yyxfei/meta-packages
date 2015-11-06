@@ -1,6 +1,6 @@
 Name:		wn58pkg
 Version:	1.0.1
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	WN58 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -24,7 +24,6 @@ Requires:       amtu
 Requires:       am-utils
 Requires:       anacron
 Requires:       antlr
-Requires:       apache-flume
 Requires:       apr-util
 Requires:       apr
 Requires:       arptables_jf
@@ -94,8 +93,6 @@ Requires:       cadaver
 Requires:       cairo-devel
 Requires:       cairo
 Requires:       c-ares
-Requires:       CASTOR-client
-Requires:       c-check
 Requires:       ccid
 Requires:       cdparanoia-libs
 Requires:       cernlib
@@ -198,7 +195,6 @@ Requires:       e2fsprogs
 Requires:       e4fsprogs
 Requires:       ecryptfs-utils
 Requires:       edac-utils
-Requires:       editline
 Requires:       ed
 Requires:       efax
 Requires:       eject
@@ -375,7 +371,6 @@ Requires:       jakarta-commons-logging
 Requires:       java-1.4.2-gcj-compat
 Requires:       java-1.6.0-openjdk-devel
 Requires:       java-1.6.0-openjdk
-Requires:       jclassads
 Requires:       jdk
 Requires:       jpackage-utils
 Requires:       jwhois
@@ -940,7 +935,6 @@ Requires:       rsync
 Requires:       rsyslog
 Requires:       rt61pci-firmware
 Requires:       rt73usb-firmware
-Requires:       SAGA.lsu-cpp.engine
 Requires:       samba3x-common
 Requires:       samba3x-winbind
 Requires:       sane-backends-libs
