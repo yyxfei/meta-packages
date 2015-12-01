@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	18%{?dist}
+Release:	19%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -485,6 +485,7 @@ Requires:       krb5-libs
 Requires:       krb5-pkinit-openssl
 Requires:       krb5-workstation
 Requires:       ksc
+Requires:       ksh
 Requires:       ksysguardd
 Requires:       ldapjdk
 Requires:       ledmon
