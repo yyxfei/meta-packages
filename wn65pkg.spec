@@ -1,13 +1,12 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	20%{?dist}
+Release:	21%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 Requires:       389-ds-base-devel
 Requires:       389-ds-base-libs
-Requires:       a1_grid_env
 Requires:       abrt
 Requires:       abrt-addon-ccpp
 Requires:       abrt-addon-kerneloops
@@ -121,7 +120,6 @@ Requires:       chrpath
 Requires:       classads
 Requires:       classpathx-jaf
 Requires:       classpathx-mail
-Requires:       cleanup-grid-accounts
 Requires:       cloog-ppl
 Requires:       clucene-core
 Requires:       cmake
@@ -334,8 +332,6 @@ Requires:       gpgme
 Requires:       gpm
 Requires:       gpm-libs
 Requires:       grep
-Requires:       gridftp-ifce
-Requires:       gridsite-libs
 Requires:       groff
 Requires:       grub
 Requires:       grubby
