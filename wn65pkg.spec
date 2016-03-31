@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	21%{?dist}
+Release:	22%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -765,6 +765,7 @@ Requires:       MAKEDEV
 Requires:       man
 Requires:       man-pages
 Requires:       man-pages-overrides
+Requires:       mc
 Requires:       mcpp
 Requires:       mdadm
 Requires:       mercurial
