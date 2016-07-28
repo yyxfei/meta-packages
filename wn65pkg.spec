@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	22%{?dist}
+Release:	23%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -139,6 +139,10 @@ Requires:       compat-libstdc++-296
 Requires:       compat-libstdc++-33
 Requires:       compat-libtermcap
 Requires:       compat-openldap
+Requires:       compat-openmpi-psm
+Requires:       compat-opensm-libs
+Requires:       compat-openldap
+Requires:       compat-openmpi
 Requires:       compat-openmpi-psm
 Requires:       compat-opensm-libs
 Requires:       compat-readline5
@@ -784,9 +788,21 @@ Requires:       mod_dav_svn
 Requires:       mod_perl
 Requires:       module-init-tools
 Requires:       mpfr
+Requires:       mpich2
+Requires:       mpich2-devel
+Requires:       mpitests-mvapich
+Requires:       mpitests-mvapich-psm
+Requires:       mpitests-mvapich2
+Requires:       mpitests-mvapich2-psm
 Requires:       mtools
 Requires:       mtr
 Requires:       mutt
+Requires:       mvapich
+Requires:       mvapich-devel
+Requires:       mvapich-psm
+Requires:       mvapich2
+Requires:       mvapich2-devel
+Requires:       mvapich2-psm
 Requires:       mx4j
 Requires:       mysql
 Requires:       mysql-connector-java
@@ -857,6 +873,8 @@ Requires:       openldap-devel
 Requires:       openmotif
 Requires:       openmotif22
 Requires:       openmotif-devel
+Requires:       openmpi
+Requires:       openmpi-devel
 Requires:       opensp
 Requires:       openssh
 Requires:       openssh-clients
