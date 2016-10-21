@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	24%{?dist}
+Release:	25%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -747,6 +747,9 @@ Requires:       lm_sensors
 Requires:       lm_sensors-devel
 Requires:       lm_sensors-libs
 Requires:       lockdev
+Requires:       liblog4cplus-1.1.so.7()(64bit), liblog4cplus-1.1.so.7
+Requires:       liblog4cplus.so()(64bit), liblog4cplus.so
+Requires:       log4cplus-debuginfo
 Requires:       log4cpp-devel
 Requires:       log4j
 Requires:       logrotate
@@ -1374,6 +1377,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
+* Thu Oct 21 2016 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.1-25
+- Add log4cplus
 * Thu Oct 21 2016 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.1-24
 - Delete amanda and amanda-client
 * Thu May 20 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
