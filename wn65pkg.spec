@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	23%{?dist}
+Release:	24%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -21,8 +21,6 @@ Requires:       akonadi
 Requires:       alsa-lib
 Requires:       alsa-lib-devel
 Requires:       alsa-utils
-Requires:       amanda
-Requires:       amanda-client
 Requires:       ant
 Requires:       antlr
 Requires:       apache-flume
@@ -1376,6 +1374,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
+* Thu Oct 21 2016 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.1-24
+- Delete amanda and amanda-client
 * Thu May 20 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
 - Delete myproxy
 * Thu May 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
