@@ -747,8 +747,8 @@ Requires:       lm_sensors
 Requires:       lm_sensors-devel
 Requires:       lm_sensors-libs
 Requires:       lockdev
-Requires:       liblog4cplus-1.1.so.7()(64bit), liblog4cplus-1.1.so.7
-Requires:       liblog4cplus.so()(64bit), liblog4cplus.so
+Requires:       log4cplus(x86-32), log4cplus(x86-64)
+Requires:       log4cplus-devel(x86-32), log4cplus-devel(x86-64)
 Requires:       log4cplus-debuginfo
 Requires:       log4cpp-devel
 Requires:       log4j
