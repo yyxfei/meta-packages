@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	25%{?dist}
+Release:	26%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -138,11 +138,9 @@ Requires:       compat-libstdc++-33
 Requires:       compat-libtermcap
 Requires:       compat-openldap
 Requires:       compat-openmpi-psm
-Requires:       compat-opensm-libs
 Requires:       compat-openldap
 Requires:       compat-openmpi
 Requires:       compat-openmpi-psm
-Requires:       compat-opensm-libs
 Requires:       compat-readline5
 Requires:       ConsoleKit
 Requires:       ConsoleKit-libs
