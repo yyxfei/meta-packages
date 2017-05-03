@@ -1,7 +1,7 @@
-Name:		wn65pkg
+Name:		wn69pkg
 Version:	1.0.1
-Release:	26%{?dist}
-Summary:	WN65 meta-packages
+Release:	1%{?dist}
+Summary:	WN69 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
