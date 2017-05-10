@@ -136,10 +136,7 @@ Requires:       compat-libstdc++-296
 Requires:       compat-libstdc++-33
 Requires:       compat-libtermcap
 Requires:       compat-openldap
-Requires:       compat-openmpi-psm
 Requires:       compat-openldap
-Requires:       compat-openmpi
-Requires:       compat-openmpi-psm
 Requires:       compat-readline5
 Requires:       ConsoleKit
 Requires:       ConsoleKit-libs
@@ -427,7 +424,6 @@ Requires:       java-1.7.0-openjdk-devel
 Requires:       java-1.8.0-openjdk
 Requires:       java-1.8.0-openjdk-devel
 Requires:       java_cup
-Requires:       jclassads
 Requires:       jdk
 Requires:       jline
 Requires:       joe
@@ -787,8 +783,8 @@ Requires:       mod_dav_svn
 Requires:       mod_perl
 Requires:       module-init-tools
 Requires:       mpfr
-Requires:       mpich2
-Requires:       mpich2-devel
+Requires:       mpich
+Requires:       mpich-devel
 Requires:       mpitests-mvapich
 Requires:       mpitests-mvapich-psm
 Requires:       mpitests-mvapich2
