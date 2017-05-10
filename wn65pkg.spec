@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	26%{?dist}
+Release:	27%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -23,7 +23,6 @@ Requires:       alsa-lib-devel
 Requires:       alsa-utils
 Requires:       ant
 Requires:       antlr
-Requires:       apache-flume
 Requires:       apache-tomcat-apis
 Requires:       apr
 Requires:       apr-devel
