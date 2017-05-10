@@ -115,7 +115,6 @@ Requires:       check-devel
 Requires:       checkpolicy
 Requires:       chkconfig
 Requires:       chrpath
-Requires:       classads
 Requires:       classpathx-jaf
 Requires:       classpathx-mail
 Requires:       cloog-ppl
@@ -219,7 +218,6 @@ Requires:       e2fsprogs-libs
 Requires:       ecj
 Requires:       ed
 Requires:       edac-utils
-Requires:       editline
 Requires:       efibootmgr
 Requires:       eggdbus
 Requires:       eject
@@ -426,6 +424,8 @@ Requires:       java-1.6.0-openjdk
 Requires:       java-1.6.0-openjdk-devel
 Requires:       java-1.7.0-openjdk
 Requires:       java-1.7.0-openjdk-devel
+Requires:       java-1.8.0-openjdk
+Requires:       java-1.8.0-openjdk-devel
 Requires:       java_cup
 Requires:       jclassads
 Requires:       jdk
@@ -1149,7 +1149,6 @@ Requires:       rsyslog-gssapi
 Requires:       rsyslog-relp
 Requires:       rt61pci-firmware
 Requires:       rt73usb-firmware
-Requires:       SAGA.lsu-cpp.engine
 Requires:       samba4-libs
 Requires:       samba-client
 Requires:       samba-common
