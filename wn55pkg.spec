@@ -1,6 +1,6 @@
 Name:		wn55pkg
 Version:	1.0.1
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	WN55 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -24,7 +24,6 @@ Requires:       amtu
 Requires:       am-utils
 Requires:       anacron
 Requires:       antlr
-Requires:       apache-flume
 Requires:       apr-util
 Requires:       apr
 Requires:       arptables_jf
