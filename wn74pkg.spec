@@ -720,6 +720,7 @@ Requires:       mtr
 Requires:       mutt
 Requires:       mysql-connector-java
 Requires:       mysql-connector-odbc
+Requires:       MySQL-python
 Requires:       nano
 Requires:       nasm
 Requires:       ncurses
