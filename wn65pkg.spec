@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	27%{?dist}
+Release:	28%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -788,19 +788,9 @@ Requires:       module-init-tools
 Requires:       mpfr
 Requires:       mpich2
 Requires:       mpich2-devel
-Requires:       mpitests-mvapich
-Requires:       mpitests-mvapich-psm
-Requires:       mpitests-mvapich2
-Requires:       mpitests-mvapich2-psm
 Requires:       mtools
 Requires:       mtr
 Requires:       mutt
-Requires:       mvapich
-Requires:       mvapich-devel
-Requires:       mvapich-psm
-Requires:       mvapich2
-Requires:       mvapich2-devel
-Requires:       mvapich2-psm
 Requires:       mx4j
 Requires:       mysql
 Requires:       mysql-connector-java
@@ -871,8 +861,6 @@ Requires:       openldap-devel
 Requires:       openmotif
 Requires:       openmotif22
 Requires:       openmotif-devel
-Requires:       openmpi
-Requires:       openmpi-devel
 Requires:       opensp
 Requires:       openssh
 Requires:       openssh-clients
