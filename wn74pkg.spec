@@ -23,7 +23,6 @@ Requires:       alsa-lib-devel
 Requires:       alsa-utils
 Requires:       ant
 Requires:       antlr
-Requires:       apache-tomcat-apis
 Requires:       apr
 Requires:       apr-devel
 Requires:       apr-util
@@ -47,7 +46,6 @@ Requires:       automake
 Requires:       automoc
 Requires:       avahi-glib
 Requires:       avahi-libs
-Requires:       axis
 Requires:       b43-fwcutter
 Requires:       b43-openfwwf
 Requires:       babel
@@ -56,7 +54,6 @@ Requires:       basesystem
 Requires:       bash
 Requires:       bc
 Requires:       bcel
-Requires:       bfa-firmware
 Requires:       bind-libs
 Requires:       bind-utils
 Requires:       binutils
@@ -84,8 +81,6 @@ Requires:       boost-wave
 Requires:       bouncycastle
 Requires:       bridge-utils
 Requires:       brltty
-Requires:       btparser
-Requires:       busybox
 Requires:       byacc
 Requires:       bzip2
 Requires:       bzip2-devel
@@ -98,15 +93,6 @@ Requires:       cairomm
 Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
-Requires:       cernlib-static
-Requires:       cernlib-g77
-Requires:       cernlib-g77-devel
-Requires:       cernlib-g77-static
-Requires:       cernlib-g77-utils
-Requires:       cernlib-utils
-Requires:       cernlib-packlib
-Requires:       cernlib-packlib-g77
-Requires:       cernlib-packlib-gfortran
 Requires:       certmonger
 Requires:       CGSI-gSOAP
 Requires:       check
@@ -114,16 +100,12 @@ Requires:       check-devel
 Requires:       checkpolicy
 Requires:       chkconfig
 Requires:       chrpath
-Requires:       classpathx-jaf
-Requires:       classpathx-mail
-Requires:       cloog-ppl
 Requires:       clucene-core
 Requires:       cmake
 Requires:       compat-db
 Requires:       compat-db42
 Requires:       compat-db43
-Requires:       compat-expat1
-Requires:       compat-gcc-34
+Requires:       compat-gcc-44
 Requires:       compat-gcc-44-c++
 Requires:       compat-gcc-44-gfortran
 Requires:       compat-glibc
@@ -131,14 +113,11 @@ Requires:       compat-glibc-headers
 Requires:       compat-libcap1
 Requires:       compat-libf2c-34
 Requires:       compat-libgfortran-41
-Requires:       compat-libstdc++-296
 Requires:       compat-libstdc++-33
-Requires:       compat-libtermcap
 Requires:       compat-openldap
 Requires:       compat-openldap
 Requires:       compat-readline5
 Requires:       coreutils
-Requires:       coreutils-libs
 Requires:       cpio
 Requires:       cpp
 Requires:       cpupowerutils
@@ -212,7 +191,6 @@ Requires:       ecj
 Requires:       ed
 Requires:       edac-utils
 Requires:       efibootmgr
-Requires:       eggdbus
 Requires:       eject
 Requires:       ElectricFence
 Requires:       elfutils
@@ -300,7 +278,6 @@ Requires:       giflib
 Requires:       gimp
 Requires:       gimp-data-extras
 Requires:       gimp-help
-Requires:       gimp-help-browser
 Requires:       gimp-libs
 Requires:       git
 Requires:       git-svn
@@ -324,7 +301,7 @@ Requires:       gpm
 Requires:       gpm-libs
 Requires:       grep
 Requires:       groff
-Requires:       grub
+Requires:       grub2
 Requires:       grubby
 Requires:       gsi-openssh
 Requires:       gsi-openssh-clients
@@ -349,11 +326,6 @@ Requires:       gv
 Requires:       gvfs
 Requires:       gvfs-devel
 Requires:       gzip
-Requires:       hal
-Requires:       hal-devel
-Requires:       hal-info
-Requires:       hal-libs
-Requires:       hal-storage-addon
 Requires:       hdparm
 Requires:       HEP_OSlibs_SL6
 Requires:       hesinfo
@@ -521,7 +493,6 @@ Requires:       libdmx
 Requires:       libdrm
 Requires:       libdrm-devel
 Requires:       libedit
-Requires:       libertas-usb8388-firmware
 Requires:       libevent
 Requires:       libexif
 Requires:       libexif-devel
@@ -529,9 +500,6 @@ Requires:       libffi
 Requires:       libfontenc
 Requires:       libfprint
 Requires:       libgcc
-Requires:       libgcj
-Requires:       libgcj-devel
-Requires:       libgcj-src
 Requires:       libgcrypt
 Requires:       libgcrypt-devel
 Requires:       libgfortran
@@ -552,7 +520,6 @@ Requires:       libgphoto2
 Requires:       libgphoto2-devel
 Requires:       libgsf
 Requires:       libgsf-devel
-Requires:       libgssglue
 Requires:       libgudev1
 Requires:       libgudev1-devel
 Requires:       libgweather
@@ -578,7 +545,6 @@ Requires:       libipa_hbac-python
 Requires:       libjpeg-turbo
 Requires:       libjpeg-turbo-devel
 Requires:       libldb
-Requires:       libmcpp
 Requires:       libmng
 Requires:       libnih
 Requires:       libnl
@@ -736,9 +702,8 @@ Requires:       lm_sensors
 Requires:       lm_sensors-devel
 Requires:       lm_sensors-libs
 Requires:       lockdev
-Requires:       log4cplus(x86-32), log4cplus(x86-64)
-Requires:       log4cplus-devel(x86-32), log4cplus-devel(x86-64)
-Requires:       log4cplus-debuginfo
+Requires:       log4cplus
+Requires:       log4cplus-devel
 Requires:       log4cpp-devel
 Requires:       log4j
 Requires:       logrotate
@@ -755,15 +720,12 @@ Requires:       m4
 Requires:       mailcap
 Requires:       mailx
 Requires:       make
-Requires:       MAKEDEV
 Requires:       man
 Requires:       man-pages
 Requires:       man-pages-overrides
 Requires:       mc
-Requires:       mcpp
 Requires:       mdadm
 Requires:       mercurial
-Requires:       mesa-dri1-drivers
 Requires:       mesa-dri-drivers
 Requires:       mesa-dri-filesystem
 Requires:       mesa-libGL
@@ -771,7 +733,6 @@ Requires:       mesa-libGL-devel
 Requires:       mesa-libGLU
 Requires:       mesa-libGLU-devel
 Requires:       microcode_ctl
-Requires:       mingetty
 Requires:       mkbootdisk
 Requires:       mlocate
 Requires:       mod_dav_svn
@@ -809,14 +770,12 @@ Requires:       NetworkManager-glib
 Requires:       newt
 Requires:       newt-python
 Requires:       nfs-utils
-Requires:       nfs-utils-lib
 Requires:       notification-daemon
 Requires:       nscd
 Requires:       nspr
 Requires:       nspr-devel
 Requires:       nss
 Requires:       nss_compat_ossl
-Requires:       nss_db
 Requires:       nss-devel
 Requires:       nss-pam-ldapd
 Requires:       nss-softokn
@@ -872,7 +831,6 @@ Requires:       patchutils
 Requires:       pax
 Requires:       pciutils
 Requires:       pciutils-libs
-Requires:       pcmciautils
 Requires:       pcre
 Requires:       pcre-devel
 Requires:       perl
@@ -985,7 +943,6 @@ Requires:       perl-XML-Twig
 Requires:       perl-YAML-Syck
 Requires:       phonon-backend-gstreamer
 Requires:       php
-Requires:       pilot-link
 Requires:       pinentry
 Requires:       pinfo
 Requires:       pixman
@@ -1023,7 +980,7 @@ Requires:       pth
 Requires:       pulseaudio-libs
 Requires:       pulseaudio-libs-devel
 Requires:       pulseaudio-libs-glib2
-Requires:       pulseaudio-libs-zeroconf
+Requires:       pulseaudio-module-zeroconf
 Requires:       pycairo
 Requires:       pycairo-devel
 Requires:       pygobject2
@@ -1068,11 +1025,6 @@ Requires:       python-urlgrabber
 Requires:       python-volume_key
 Requires:       qca2
 Requires:       qimageblitz
-Requires:       ql2100-firmware
-Requires:       ql2200-firmware
-Requires:       ql23xx-firmware
-Requires:       ql2400-firmware
-Requires:       ql2500-firmware
 Requires:       qstat
 Requires:       qt
 Requires:       qt3
@@ -1081,20 +1033,18 @@ Requires:       qt-mysql
 Requires:       qt-sqlite
 Requires:       qt-x11
 Requires:       quota
-Requires:       raptor
+Requires:       raptor2
 Requires:       rarian
 Requires:       rarian-compat
 Requires:       rasqal
 Requires:       rcs
 Requires:       rdate
-Requires:       readahead
 Requires:       readline
 Requires:       readline-devel
 Requires:       redhat-logos
 Requires:       redhat-lsb
 Requires:       redhat-lsb-compat
 Requires:       redhat-lsb-core
-Requires:       redhat-lsb-graphics
 Requires:       redhat-lsb-printing
 Requires:       redhat-menus
 Requires:       redhat-rpm-config
@@ -1117,8 +1067,6 @@ Requires:       rsyslog
 Requires:       rsyslog-gnutls
 Requires:       rsyslog-gssapi
 Requires:       rsyslog-relp
-Requires:       rt61pci-firmware
-Requires:       rt73usb-firmware
 Requires:       samba4-libs
 Requires:       samba-client
 Requires:       samba-common
@@ -1179,7 +1127,6 @@ Requires:       syslinux
 Requires:       sysstat
 Requires:       system-config-firewall-base
 Requires:       system-config-firewall-tui
-Requires:       system-config-network-tui
 Requires:       system-gnome-theme
 Requires:       system-icon-theme
 Requires:       systemtap
@@ -1205,15 +1152,6 @@ Requires:       tcsh
 Requires:       texlive
 Requires:       texlive-dvips
 Requires:       texlive-latex
-Requires:       texlive-texmf
-Requires:       texlive-texmf-dvips
-Requires:       texlive-texmf-errata
-Requires:       texlive-texmf-errata-dvips
-Requires:       texlive-texmf-errata-fonts
-Requires:       texlive-texmf-errata-latex
-Requires:       texlive-texmf-fonts
-Requires:       texlive-texmf-latex
-Requires:       texlive-utils
 Requires:       tex-preview
 Requires:       tidy
 Requires:       time
@@ -1238,7 +1176,6 @@ Requires:       unix2dos
 Requires:       unixODBC
 Requires:       unixODBC-devel
 Requires:       unzip
-Requires:       upstart
 Requires:       urlview
 Requires:       urw-fonts
 Requires:       usbutils
@@ -1305,7 +1242,6 @@ Requires:       ypbind
 Requires:       yp-tools
 Requires:       yum
 Requires:       yum-autoupdate
-Requires:       yum-conf-sl-other
 Requires:       yum-metadata-parser
 Requires:       yum-plugin-aliases
 Requires:       yum-plugin-changelog
@@ -1316,7 +1252,6 @@ Requires:       yum-plugin-verify
 Requires:       yum-plugin-versionlock
 Requires:       yum-presto
 Requires:       yum-utils
-Requires:       zd1211-firmware
 Requires:       zip
 Requires:       zlib
 Requires:       zlib-devel
