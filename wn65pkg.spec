@@ -380,7 +380,6 @@ Requires:       ImageMagick
 Requires:       ImageMagick-c++
 Requires:       imake
 Requires:       indent
-Requires:       infinipath-psm
 Requires:       info
 Requires:       initscripts
 Requires:       inkscape
