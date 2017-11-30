@@ -1,7 +1,7 @@
 Name:		wn74pkg
 Version:	1.0.1
 Release:	1%{?dist}
-Summary:	WN69 meta-packages
+Summary:	SL74 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
@@ -1235,13 +1235,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
-* Thu Oct 21 2016 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.1-25
-- Add log4cplus
-* Thu Oct 21 2016 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.1-24
-- Delete amanda and amanda-client
-* Thu May 20 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
-- Delete myproxy
-* Thu May 13 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-2
-- Delete zefs
-* Thu Apr 10 2014 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-1
-- First version for wn65pkg
+* Thu Nov 30 2017 Yan Xiaofei <yanxf@ihep.ac.cn> - 1.0.0-1
+- First version for wn74pkg
