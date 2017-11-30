@@ -693,6 +693,10 @@ Requires:       make
 Requires:       man
 Requires:       man-pages
 Requires:       man-pages-overrides
+Requires:       mariadb-devel
+Requires:       mariadb-libs
+Requires:       mariadb-python
+Requires:       mariadb-server
 Requires:       mc
 Requires:       mdadm
 Requires:       mercurial
@@ -714,13 +718,8 @@ Requires:       mpich-devel
 Requires:       mtools
 Requires:       mtr
 Requires:       mutt
-Requires:       mysql
 Requires:       mysql-connector-java
 Requires:       mysql-connector-odbc
-Requires:       mysql-devel
-Requires:       mysql-libs
-Requires:       MySQL-python
-Requires:       mysql-server
 Requires:       nano
 Requires:       nasm
 Requires:       ncurses
