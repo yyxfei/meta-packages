@@ -136,10 +136,7 @@ Requires:       compat-libstdc++-296
 Requires:       compat-libstdc++-33
 Requires:       compat-libtermcap
 Requires:       compat-openldap
-Requires:       compat-openmpi-psm
 Requires:       compat-openldap
-Requires:       compat-openmpi
-Requires:       compat-openmpi-psm
 Requires:       compat-readline5
 Requires:       ConsoleKit
 Requires:       ConsoleKit-libs
