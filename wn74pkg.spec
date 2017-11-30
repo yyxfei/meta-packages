@@ -33,7 +33,6 @@ Requires:       at
 Requires:       atk
 Requires:       atk-devel
 Requires:       atlas
-Requires:       atmel-firmware
 Requires:       attr
 Requires:       audiofile
 Requires:       audispd-plugins
@@ -46,8 +45,6 @@ Requires:       automake
 Requires:       automoc
 Requires:       avahi-glib
 Requires:       avahi-libs
-Requires:       b43-fwcutter
-Requires:       b43-openfwwf
 Requires:       babel
 Requires:       babl
 Requires:       basesystem
@@ -90,7 +87,6 @@ Requires:       ca-certificates
 Requires:       cairo
 Requires:       cairo-devel
 Requires:       cairomm
-Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
 Requires:       certmonger
@@ -103,8 +99,7 @@ Requires:       chrpath
 Requires:       clucene-core
 Requires:       cmake
 Requires:       compat-db
-Requires:       compat-db42
-Requires:       compat-db43
+Requires:       compat-db47
 Requires:       compat-gcc-44
 Requires:       compat-gcc-44-c++
 Requires:       compat-gcc-44-gfortran
@@ -116,12 +111,10 @@ Requires:       compat-libgfortran-41
 Requires:       compat-libstdc++-33
 Requires:       compat-openldap
 Requires:       compat-openldap
-Requires:       compat-readline5
 Requires:       coreutils
 Requires:       cpio
 Requires:       cpp
 Requires:       cpupowerutils
-Requires:       cpuspeed
 Requires:       cracklib
 Requires:       cracklib-dicts
 Requires:       crda
@@ -145,7 +138,6 @@ Requires:       cyrus-sasl-devel
 Requires:       cyrus-sasl-gssapi
 Requires:       cyrus-sasl-lib
 Requires:       cyrus-sasl-plain
-Requires:       dash
 Requires:       db4
 Requires:       db4-cxx
 Requires:       db4-devel
@@ -158,8 +150,6 @@ Requires:       dbus-libs
 Requires:       dbus-python
 Requires:       dbus-x11
 Requires:       dcraw
-Requires:       devtoolset-1.1
-Requires:       devtoolset-2
 Requires:       dejagnu
 Requires:       deltarpm
 Requires:       device-mapper
@@ -174,7 +164,6 @@ Requires:       diffutils
 Requires:       dmidecode
 Requires:       dmraid
 Requires:       dmraid-events
-Requires:       dmz-cursor-themes
 Requires:       docbook-dtds
 Requires:       docbook-style-dsssl
 Requires:       docbook-style-xsl
@@ -256,7 +245,6 @@ Requires:       gcc
 Requires:       gcc-c++
 Requires:       gcc-gfortran
 Requires:       gcc-gnat
-Requires:       gcc-java
 Requires:       gcc-objc
 Requires:       gcc-objc++
 Requires:       GConf2
@@ -267,8 +255,6 @@ Requires:       gdbm
 Requires:       gegl
 Requires:       genisoimage
 Requires:       geoclue
-Requires:       geronimo-specs
-Requires:       geronimo-specs-compat
 Requires:       gettext
 Requires:       gettext-devel
 Requires:       gettext-libs
@@ -327,14 +313,12 @@ Requires:       gvfs
 Requires:       gvfs-devel
 Requires:       gzip
 Requires:       hdparm
-Requires:       HEP_OSlibs_SL6
-Requires:       hesinfo
+Requires:       HEP_OSlibs
 Requires:       hesiod
 Requires:       hicolor-icon-theme
 Requires:       hmaccalc
 Requires:       hplip-common
 Requires:       hplip-libs
-Requires:       htdig
 Requires:       httpd
 Requires:       httpd-devel
 Requires:       httpd-tools
@@ -358,8 +342,6 @@ Requires:       iptables
 Requires:       iptables-devel
 Requires:       iptables-ipv6
 Requires:       iputils
-Requires:       ipw2100-firmware
-Requires:       ipw2200-firmware
 Requires:       irqbalance
 Requires:       irssi
 Requires:       iscsi-initiator-utils
@@ -382,8 +364,6 @@ Requires:       jakarta-commons-httpclient
 Requires:       jakarta-commons-lang
 Requires:       jakarta-commons-logging
 Requires:       jasper-libs
-Requires:       java-1.5.0-gcj
-Requires:       java-1.5.0-gcj-devel
 Requires:       java-1.6.0-openjdk
 Requires:       java-1.6.0-openjdk-devel
 Requires:       java-1.7.0-openjdk
@@ -421,7 +401,6 @@ Requires:       kdelibs-experimental
 Requires:       kdemultimedia-devel
 Requires:       kdemultimedia-libs
 Requires:       kdenetwork-devel
-Requires:       kdenetwork-libs
 Requires:       kdepim
 Requires:       kdepim-devel
 Requires:       kdepimlibs
@@ -429,10 +408,7 @@ Requires:       kdepim-libs
 Requires:       kdepimlibs-akonadi
 Requires:       kdepimlibs-devel
 Requires:       kdesdk-devel
-Requires:       kdesdk-libs
 Requires:       kde-settings
-Requires:       kdewebdev
-Requires:       kdewebdev-libs
 Requires:       kexec-tools
 Requires:       keyutils
 Requires:       keyutils-libs
@@ -440,10 +416,9 @@ Requires:       keyutils-libs-devel
 Requires:       kio_sysinfo
 Requires:       kpartx
 Requires:       kpathsea
-Requires:       krb5-appl-clients
 Requires:       krb5-devel
 Requires:       krb5-libs
-Requires:       krb5-pkinit-openssl
+Requires:       krb5-pkinit
 Requires:       krb5-workstation
 Requires:       ksc
 Requires:       ksh
@@ -546,7 +521,6 @@ Requires:       libjpeg-turbo
 Requires:       libjpeg-turbo-devel
 Requires:       libldb
 Requires:       libmng
-Requires:       libnih
 Requires:       libnl
 Requires:       libnl-devel
 Requires:       libnotify
@@ -574,7 +548,7 @@ Requires:       libreport-plugin-kerneloops
 Requires:       libreport-plugin-logger
 Requires:       libreport-plugin-mailx
 Requires:       libreport-plugin-reportuploader
-Requires:       libreport-plugin-rhtsupport
+Requires:       libreport-plugin-ureport
 Requires:       libreport-python
 Requires:       librsvg2
 Requires:       librsvg2-devel
@@ -618,10 +592,6 @@ Requires:       libtiff-devel
 Requires:       libtirpc
 Requires:       libtool
 Requires:       libtool-ltdl
-Requires:       libtopology
-Requires:       libtopology-devel
-Requires:       libudev
-Requires:       libudev-devel
 Requires:       libusb
 Requires:       libusb1
 Requires:       libusb-devel
@@ -744,7 +714,6 @@ Requires:       mpich-devel
 Requires:       mtools
 Requires:       mtr
 Requires:       mutt
-Requires:       mx4j
 Requires:       mysql
 Requires:       mysql-connector-java
 Requires:       mysql-connector-odbc
@@ -801,7 +770,6 @@ Requires:       openldap
 Requires:       openldap-clients
 Requires:       openldap-devel
 Requires:       openmotif
-Requires:       openmotif22
 Requires:       openmotif-devel
 Requires:       opensp
 Requires:       openssh
@@ -817,8 +785,6 @@ Requires:       oxygen-icon-theme
 Requires:       pakchois
 Requires:       pam
 Requires:       pam_krb5
-Requires:       pam_ldap
-Requires:       pam_passwdqc
 Requires:       pango
 Requires:       pango-devel
 Requires:       pangomm
@@ -911,7 +877,6 @@ Requires:       perl-Proc-ProcessTable
 Requires:       perl-Readonly
 Requires:       perl-Readonly-XS
 Requires:       perl-SGMLSpm
-Requires:       perl-suidperl
 Requires:       perl-Template-Toolkit
 Requires:       perl-TermReadKey
 Requires:       perl-Term-UI
@@ -948,7 +913,6 @@ Requires:       pinfo
 Requires:       pixman
 Requires:       pixman-devel
 Requires:       pkgconfig
-Requires:       plpa-libs
 Requires:       plymouth
 Requires:       plymouth-core-libs
 Requires:       plymouth-scripts
@@ -969,7 +933,6 @@ Requires:       postfix
 Requires:       postgresql
 Requires:       postgresql-devel
 Requires:       postgresql-libs
-Requires:       ppl
 Requires:       prelink
 Requires:       procmail
 Requires:       procps
@@ -1008,7 +971,6 @@ Requires:       python-docs
 Requires:       python-enchant
 Requires:       python-ethtool
 Requires:       python-iniparse
-Requires:       python-iwlib
 Requires:       python-kerberos
 Requires:       python-krbV
 Requires:       python-ldap
@@ -1075,7 +1037,6 @@ Requires:       samba-winbind-clients
 Requires:       sane-backends
 Requires:       sane-backends-devel
 Requires:       sane-backends-libs
-Requires:       sane-backends-libs-gphoto2
 Requires:       sane-frontends
 Requires:       scl-utils
 Requires:       screen
@@ -1092,7 +1053,6 @@ Requires:       sgml-common
 Requires:       sgpio
 Requires:       shadow-utils
 Requires:       shared-mime-info
-Requires:       sinjdoc
 Requires:       sip
 Requires:       sip-devel
 Requires:       slang
@@ -1127,8 +1087,6 @@ Requires:       syslinux
 Requires:       sysstat
 Requires:       system-config-firewall-base
 Requires:       system-config-firewall-tui
-Requires:       system-gnome-theme
-Requires:       system-icon-theme
 Requires:       systemtap
 Requires:       systemtap-client
 Requires:       systemtap-devel
@@ -1163,13 +1121,11 @@ Requires:       traceroute
 Requires:       transfig
 Requires:       trousers
 Requires:       ttmkfdir
-Requires:       tunctl
 Requires:       tzdata
 Requires:       tzdata-java
 Requires:       uberftp
 Requires:       udev
 Requires:       udftools
-Requires:       udisks
 Requires:       unique
 Requires:       unique-devel
 Requires:       unix2dos
