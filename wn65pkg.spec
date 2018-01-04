@@ -1,6 +1,6 @@
 Name:		wn65pkg
 Version:	1.0.1
-Release:	28%{?dist}
+Release:	29%{?dist}
 Summary:	WN65 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -185,6 +185,8 @@ Requires:       dbus-x11
 Requires:       dcraw
 Requires:       devtoolset-1.1
 Requires:       devtoolset-2
+Requires:       devtoolset-3
+Requires:       devtoolset-4
 Requires:       dejagnu
 Requires:       deltarpm
 Requires:       device-mapper
