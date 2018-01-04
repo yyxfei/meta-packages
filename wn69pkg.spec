@@ -184,6 +184,8 @@ Requires:       dbus-x11
 Requires:       dcraw
 Requires:       devtoolset-1.1
 Requires:       devtoolset-2
+Requires:       devtoolset-3
+Requires:       devtoolset-4
 Requires:       dejagnu
 Requires:       deltarpm
 Requires:       device-mapper
