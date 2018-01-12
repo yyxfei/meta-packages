@@ -95,7 +95,6 @@ Requires:       ca-certificates
 Requires:       cairo
 Requires:       cairo-devel
 Requires:       cairomm
-Requires:       CASTOR-client
 Requires:       c-ares
 Requires:       cdparanoia-libs
 Requires:       cernlib-static
