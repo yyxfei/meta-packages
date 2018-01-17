@@ -1,6 +1,6 @@
 Name:		wn69pkg
 Version:	1.0.1
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	WN69 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -773,7 +773,6 @@ Requires:       mesa-libGL
 Requires:       mesa-libGL-devel
 Requires:       mesa-libGLU
 Requires:       mesa-libGLU-devel
-Requires:       microcode_ctl
 Requires:       mingetty
 Requires:       mkbootdisk
 Requires:       mlocate
