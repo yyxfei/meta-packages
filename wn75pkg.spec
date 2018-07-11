@@ -1,7 +1,7 @@
-Name:		wn74pkg
+Name:		wn75pkg
 Version:	1.0.1
 Release:	1%{?dist}
-Summary:	SL74 meta-packages
+Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
