@@ -345,7 +345,6 @@ Requires:       iputils
 Requires:       irqbalance
 Requires:       irssi
 Requires:       iscsi-initiator-utils
-Requires:       is-interface
 Requires:       iso-codes
 Requires:       ivtv-firmware
 Requires:       iw
