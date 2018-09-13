@@ -741,7 +741,6 @@ Requires:       lm_sensors-libs
 Requires:       lockdev
 Requires:       log4cplus(x86-32), log4cplus(x86-64)
 Requires:       log4cplus-devel(x86-32), log4cplus-devel(x86-64)
-Requires:       log4cplus-debuginfo
 Requires:       log4cpp-devel
 Requires:       log4j
 Requires:       logrotate
