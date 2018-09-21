@@ -1,6 +1,6 @@
 Name:		wn69pkg
 Version:	1.0.1
-Release:	8%{?dist}
+Release:	9%{?dist}
 Summary:	WN69 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -181,9 +181,8 @@ Requires:       dbus-libs
 Requires:       dbus-python
 Requires:       dbus-x11
 Requires:       dcraw
-Requires:       devtoolset-1.1
-Requires:       devtoolset-2
-Requires:       devtoolset-4
+Requires:       devtoolset-6
+Requires:       devtoolset-7
 Requires:       dejagnu
 Requires:       deltarpm
 Requires:       device-mapper
