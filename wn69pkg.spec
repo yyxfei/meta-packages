@@ -1,12 +1,13 @@
 Name:		wn69pkg
-Version:	1.0.1
-Release:	9%{?dist}
+Version:	1.0.2
+Release:	1%{?dist}
 Summary:	WN69 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 Requires:       389-ds-base-devel
 Requires:       389-ds-base-libs
+Requires:       a2ps
 Requires:       abrt
 Requires:       abrt-addon-ccpp
 Requires:       abrt-addon-kerneloops
