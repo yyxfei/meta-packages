@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.1
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1147,7 +1147,6 @@ Requires:       virt-what
 Requires:       volume_key
 Requires:       volume_key-libs
 Requires:       wavpack
-Requires:       webkitgtk
 Requires:       wget
 Requires:       which
 Requires:       wireless-tools
