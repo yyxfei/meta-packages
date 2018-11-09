@@ -1,5 +1,5 @@
 Name:		wn69pkg
-Version:	1.0.2
+Version:	1.0.3
 Release:	1%{?dist}
 Summary:	WN69 meta-packages
 Group:		Applications/Internet
@@ -42,6 +42,7 @@ Requires:       audispd-plugins
 Requires:       audit
 Requires:       audit-libs
 Requires:       audit-libs-devel
+Requires:       augeas
 Requires:       authconfig
 Requires:       autoconf
 Requires:       automake
