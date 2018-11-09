@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.1
-Release:	3%{?dist}
+Release:	4%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -40,6 +40,7 @@ Requires:       audispd-plugins
 Requires:       audit
 Requires:       audit-libs
 Requires:       audit-libs-devel
+Requires:       augeas
 Requires:       authconfig
 Requires:       autoconf
 Requires:       automake
