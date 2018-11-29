@@ -1,5 +1,5 @@
 Name:		wn75pkg
-Version:	1.0.1
+Version:	1.0.2
 Release:	4%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
@@ -321,6 +321,7 @@ Requires:       hicolor-icon-theme
 Requires:       hmaccalc
 Requires:       hplip-common
 Requires:       hplip-libs
+Requires:       htop
 Requires:       httpd
 Requires:       httpd-devel
 Requires:       httpd-tools
