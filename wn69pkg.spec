@@ -1,5 +1,5 @@
 Name:		wn69pkg
-Version:	1.0.3
+Version:	1.0.4
 Release:	1%{?dist}
 Summary:	WN69 meta-packages
 Group:		Applications/Internet
@@ -367,6 +367,7 @@ Requires:       hmaccalc
 Requires:       hplip-common
 Requires:       hplip-libs
 Requires:       htdig
+Requires:       htop
 Requires:       httpd
 Requires:       httpd-devel
 Requires:       httpd-tools
