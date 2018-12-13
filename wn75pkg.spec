@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.2
-Release:	4%{?dist}
+Release:	5%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -1058,9 +1058,6 @@ Requires:       sip
 Requires:       sip-devel
 Requires:       slang
 Requires:       slf4j
-Requires:       sl-indexhtml
-Requires:       sl-release
-Requires:       sl-release-notes
 Requires:       smartmontools
 Requires:       smp_utils
 Requires:       soprano
@@ -1197,7 +1194,7 @@ Requires:       xz-lzma-compat
 Requires:       ypbind
 Requires:       yp-tools
 Requires:       yum
-Requires:       yum-autoupdate
+Requires:       yum-cron
 Requires:       yum-metadata-parser
 Requires:       yum-plugin-aliases
 Requires:       yum-plugin-changelog
