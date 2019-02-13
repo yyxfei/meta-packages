@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.2
-Release:	5%{?dist}
+Release:	6%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -982,6 +982,7 @@ Requires:       python-netaddr
 Requires:       python-nose
 Requires:       python-nss
 Requires:       python-paramiko
+Requires:       python-pip
 Requires:       python-pycurl
 Requires:       python-setuptools
 Requires:       python-urlgrabber
@@ -1155,6 +1156,7 @@ Requires:       wsdl4j
 Requires:       x86info
 Requires:       Xaw3d
 Requires:       xcb-util
+Requires:       xclip
 Requires:       xdg-user-dirs
 Requires:       xdg-utils
 Requires:       xdvik
