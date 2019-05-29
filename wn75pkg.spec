@@ -909,6 +909,13 @@ Requires:       perl-XML-Twig
 Requires:       perl-YAML-Syck
 Requires:       phonon-backend-gstreamer
 Requires:       php
+Requires:       php-common
+Requires:       php-gd
+Requires:       php-cli
+Requires:       php-pdo
+Requires:       php-pear
+Requires:       php-process
+Requires:       php-xml
 Requires:       pinentry
 Requires:       pinfo
 Requires:       pixman
