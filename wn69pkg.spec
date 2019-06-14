@@ -1,6 +1,6 @@
 Name:		wn69pkg
 Version:	1.0.4
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	WN69 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -115,6 +115,7 @@ Requires:       check-devel
 Requires:       checkpolicy
 Requires:       chkconfig
 Requires:       chrpath
+Requires:       clang
 Requires:       classpathx-jaf
 Requires:       classpathx-mail
 Requires:       cloog-ppl
