@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.3
-Release:	6%{?dist}
+Release:	7%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -98,6 +98,7 @@ Requires:       check-devel
 Requires:       checkpolicy
 Requires:       chkconfig
 Requires:       chrpath
+Requires:       clang
 Requires:       clucene-core
 Requires:       cmake
 Requires:       compat-db
