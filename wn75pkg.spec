@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.3
-Release:	8%{?dist}
+Release:	9%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -362,7 +362,6 @@ Requires:       iwl6000-firmware
 Requires:       iwl6000g2a-firmware
 Requires:       iwl6050-firmware
 Requires:       jakarta-commons-cli
-Requires:       jakarta-commons-discovery
 Requires:       jakarta-commons-httpclient
 Requires:       jakarta-commons-lang
 Requires:       jakarta-commons-logging
