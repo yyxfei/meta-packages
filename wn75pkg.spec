@@ -1,6 +1,6 @@
 Name:		wn75pkg
 Version:	1.0.3
-Release:	7%{?dist}
+Release:	8%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -995,10 +995,10 @@ Requires:       python-pycurl
 Requires:       python-setuptools
 Requires:       python-urlgrabber
 Requires:       python-volume_key
-Requires:       python34
-Requires:       python34-libs
-Requires:       python34-scipy
-Requires:       python34-numpy
+Requires:       python36
+Requires:       python36-libs
+Requires:       python36-scipy
+Requires:       python36-numpy
 Requires:       qca2
 Requires:       qimageblitz
 Requires:       qstat
