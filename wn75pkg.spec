@@ -1,6 +1,6 @@
 Name:		wn75pkg
-Version:	1.0.3
-Release:	9%{?dist}
+Version:	1.0.4
+Release:	1%{?dist}
 Summary:	SL75 meta-packages
 Group:		Applications/Internet
 License:	ASL 2.0
@@ -60,6 +60,7 @@ Requires:       binutils-devel
 Requires:       biosdevname
 Requires:       bison
 Requires:       blas
+Requires:       blas-devel
 Requires:       blktrace
 Requires:       bluez-libs
 Requires:       boost
@@ -425,6 +426,7 @@ Requires:       krb5-workstation
 Requires:       ksc
 Requires:       ksh
 Requires:       ksysguardd
+Requires:       lapack-devel
 Requires:       ldapjdk
 Requires:       ledmon
 Requires:       less
